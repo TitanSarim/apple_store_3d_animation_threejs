@@ -1,0 +1,30 @@
+.jumbotron-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+  gap: 20px;
+}
+
+.jumbotro-title {
+  color: rgba(255, 255, 255, 0.655);
+  font-weight: 400 !important;
+  font-size: 19px !important;
+}
+
+.jumbotron-logo {
+  width: 170px;
+}
+
+.jumbotron-text {
+  color: #f59aff;
+  font-size: 52px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+}
+
+.jumbotron-desc {
+  color: white;
+  font-size: 25px;
+}

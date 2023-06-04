@@ -1,0 +1,47 @@
+.nav-wrapper {
+  position: relative;
+  background-color: white;
+}
+
+.nav-content {
+  position: relative;
+  padding: 1px 100px !important;
+}
+
+.list-styled {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+  text-decoration: none;
+  list-style: none;
+}
+
+.list-styled li {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.list_components {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  justify-content: space-between;
+}
+
+.styled_links {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.list-styled li img {
+  width: 22px;
+  color: black;
+}
