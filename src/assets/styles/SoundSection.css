@@ -1,0 +1,37 @@
+.sound-section-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 200px;
+  height: 100vh !important;
+  background-color: white;
+}
+
+.sound-section-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  text-align: center;
+}
+
+.sound-section-content h2 {
+  font-size: 25px;
+  font-weight: 400;
+  color: rgb(81, 81, 81);
+}
+
+.sound-section-content p {
+  font-size: 75px;
+  font-weight: 700;
+  background: #1e3c88;
+  background: linear-gradient(to right, #1e3c88 28%, #1e3c88ad 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sound-section-content span {
+  font-size: 30px;
+  color: rgb(81, 81, 81);
+}
