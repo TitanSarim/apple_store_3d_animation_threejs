@@ -5,6 +5,7 @@
   align-items: center;
   margin-top: 60px;
   gap: 20px;
+  z-index: 100;
 }
 
 .jumbotro-title {
@@ -59,4 +60,5 @@
 .iphonehold {
   position: relative;
   left: 240px;
+  z-index: 100;
 }

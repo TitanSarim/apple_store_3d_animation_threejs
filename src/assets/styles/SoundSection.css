@@ -6,6 +6,7 @@
   padding: 10px 200px;
   height: 100vh !important;
   background-color: white;
+  z-index: 100;
 }
 
 .sound-section-content {
@@ -14,6 +15,7 @@
   flex-direction: column;
   gap: 25px;
   text-align: center;
+  opacity: 0;
 }
 
 .sound-section-content h2 {
