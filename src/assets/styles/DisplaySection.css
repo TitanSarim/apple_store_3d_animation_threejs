@@ -1,13 +1,18 @@
 .display_section {
   position: relative;
   height: 100vh;
+  background-color: black;
+}
+
+.display_section_content {
+  position: relative;
   display: flex;
+  top: 80px;
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
   gap: 20px;
-  top: 80px;
-  background-color: black;
+  opacity: 0;
 }
 
 .display_section h2 {
@@ -30,7 +35,7 @@
 
 .goto-top {
   position: absolute;
-  bottom: 10%;
+  top: 340%;
   right: 2%;
   padding: 10px 24px;
   background-color: white;

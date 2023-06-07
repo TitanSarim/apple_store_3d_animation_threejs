@@ -1,10 +1,11 @@
 import "../assets/styles/SoundSection.css";
 
 const SoundSection = () => {
-  const handleLearnMoreTwo = () => {
+  const handleLearnMoreTwo = (e) => {
+    e.preventDefault();
     const element = document.querySelector(".display_section");
     window.scrollTo({
-      top: element?.getBoundingClientRect().bottom,
+      top: element?.offsetTop,
       left: 0,
       behavior: "smooth",
     });
@@ -22,7 +23,7 @@ const SoundSection = () => {
               <button className="button">Buy</button>
             </li>
             <li>
-              <a href="#" className="learn--more" onClick={handleLearnMoreTwo}>
+              <a className="learn--more" onClick={handleLearnMoreTwo}>
                 Learn more
               </a>
             </li>
